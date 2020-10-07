@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+</link>
+
+    <title>ToDoApp</title>
+  
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between" >
+        <div class="pl-2">
+      <a class="navbar-brand" style="font-size: x-large;" href="/"><i class='fas fa-home'>ToDoApp</i></a>
+      </div>
+      <div>
+
+<!--pop up form -->
+      
+<div class="text-center">
+  <a href="" class="btn  btn-rounded btn-outline-success ml-auto" type="button" data-toggle="modal" onclick="myFunction()" data-target="#modalLoginForm">+ Add Task</a>
+</div>
+      </div>
+
+      </div>
+       
+ 
+     </nav>
+    </header>
+    <div class="container">
+        
+    <section>
+     
+
+<script>
+function myFunction() {
+  var y = document.createElement("INPUT");
+  y.setAttribute("type", "checkbox");
+  y.setAttribute("padding","20px")
+  y.style.height="30px"
+  y.style.width="5%"
+  y.style.padding="20px"
+  document.body.appendChild(y);
+
+
+  var x = document.createElement("INPUT");
+  x.setAttribute("type", "text");
+  x.setAttribute("placeholder", "New Task...");
+  x.setAttribute("padding","20px")
+  x.style.width="95%";
+  x.style.height="50px"
+  x.style.padding="20px"
+  x.style.marginBlockStart="10px"
+  document.body.appendChild(x);
+ 
+}
+</script>
+
+    </section>
+    </div>
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
